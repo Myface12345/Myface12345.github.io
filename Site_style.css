@@ -1,0 +1,21 @@
+header{
+	text-align: center ;
+}
+
+header a {
+	color: #062F2E ;
+	margin: 50px
+}
+
+header a h3{
+	display: inline ;
+	text-align: center-right;
+}
+
+footer{
+	text-align: center ;
+}
+
+body{
+	background-color: #F3F4EB ;
+}
