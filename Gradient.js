@@ -1,6 +1,3 @@
-<html>
-<script type="text/javascript">
-
 var colors = new Array(
   [62,35,255],
   [60,255,60],
@@ -18,7 +15,7 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 //transition speed
-var gradientSpeed = .002
+var gradientSpeed = 10.002;
 
 function updateGradient()
 {
@@ -61,23 +58,3 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 }
 
 setInterval(updateGradient,10);
-
-
-</script> 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-
-
-
-
-<head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="gradient.css">
-</head>
-
-<body>
-<div class="gradient"> </div>
-
-</body>
-
-</html>
